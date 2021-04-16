@@ -1,0 +1,77 @@
+{
+  "TB_AGENDAMENTOS" : [ null, {
+    "ID_AULA" : 1,
+    "ID_USUARIO" : "teste"
+  } ],
+  "TB_APAGA_ESSE" : {
+    "falaserio" : {
+      "ID_BS" : "teste"
+    }
+  },
+  "TB_AULAS" : [ null, {
+    "DATA_AULA" : 20210410,
+    "DESCRICAO" : "MUSCULAÇÃO",
+    "HORA_FIM" : 1030,
+    "HORA_INICIO" : "0930",
+    "ID_USUARIO" : "therock",
+    "VAGAS" : 3
+  }, {
+    "DATA_AULA" : "10-Abr-2021",
+    "DESCRICAO" : "NATAÇÂO",
+    "HORA_FIM" : "0900",
+    "HORA_INICIO" : "0800",
+    "ID_USUARIO" : "gustavob",
+    "VAGAS" : 4
+  }, {
+    "DATA_AULA" : 10042021,
+    "DESCRICAO" : "SPINNING",
+    "HORA_FIM" : 1600,
+    "HORA_INICIO" : 1500,
+    "ID_USUARIO" : "sonic",
+    "VAGAS" : 3
+  } ],
+  "TB_USUARIOS" : {
+    "aluno1" : {
+      "ATIVO" : 1,
+      "NOME" : "Aluno teste 1 valido",
+      "SENHA" : "padrao",
+      "TIPO" : "aluno"
+    },
+    "aluno2" : {
+      "ATIVO" : 0,
+      "NOME" : "Aluno teste 2 invalido",
+      "SENHA" : "padrao",
+      "TIPO" : "aluno"
+    },
+    "convidado" : {
+      "ATIVO" : 1,
+      "NOME" : "Convidado",
+      "SENHA" : "convidado",
+      "TIPO" : "aluno"
+    },
+    "gustavob" : {
+      "ATIVO" : 1,
+      "NOME" : "Gustavo Borges",
+      "SENHA" : "agua",
+      "TIPO" : "professor"
+    },
+    "sonic" : {
+      "ATIVO" : 0,
+      "NOME" : "Sonic the hedgehog",
+      "SENHA" : "robotnik",
+      "TIPO " : "professor"
+    },
+    "teste" : {
+      "ATIVO" : 1,
+      "NOME" : "Teste",
+      "SENHA" : "teste",
+      "TIPO" : "aluno"
+    },
+    "therock" : {
+      "ATIVO" : 1,
+      "NOME" : "Dwayne Johnson",
+      "SENHA" : "titan",
+      "TIPO" : "professor"
+    }
+  }
+}
